@@ -6,27 +6,34 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Wang Hairui
+name: Your Name
 title: Your job title
-email: whairui224@gmail.com
+email: Your email (optional)
 # email_title: Email (Email title override)
-phone: 13980685120
+phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-website: https://whairui.wang/
+website: Your website (eg. https://google.com)(optional)
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-github_username: Onehr7
-
+github_username:  jekyll
+stackoverflow_username: "00000001"
+dribbble_username: jekyll
+flickr_username: jekyll
+instagram_username: jekyll
+xing_username: jekyll
+pinterest_username: jekyll
+orcid_username: 0000-0000-0000-0000
+googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
-# additional_links:
-# - title: Link name
-#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
+additional_links:
+- title: Link name
+  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+  url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -101,7 +108,7 @@ content:
       Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
-footer_show_references: false
+footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
@@ -113,7 +120,7 @@ sass:
   style: compressed
 
 plugins:
-  - jekyll-seo-tag
+ - jekyll-seo-tag
 
 exclude : [
   "Gemfile",
