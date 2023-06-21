@@ -7,12 +7,12 @@ version: 2
 
 # Personal info
 name: Wang Hairui
-title: Your job title
+title: 开发工程师
 email: whairui224@gmail.com
 # email_title: Email (Email title override)
 phone: 13980685120
 # phone_title: Phone (Phone title override)
-website: https://whairui.wang/
+website: https://whairui.wang
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
@@ -39,7 +39,7 @@ github_username: Onehr7
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: 
 about_content: | # this will include new lines to allow paragraphs
   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
@@ -47,7 +47,6 @@ about_content: | # this will include new lines to allow paragraphs
     - Lists
     - Tables
     - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
   - title: Projects # Title for the section
@@ -73,7 +72,7 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: left
+      - layout: right
         title: Company name
         sub_title: Job title
         caption: Date Range (eg. November 2016 - present)

@@ -6,7 +6,7 @@ services:
     container_name: modern-resume-theme
     command: jekyll serve --watch --force_polling --verbose
     ports:
-      - 4000:4000
-      - 35729:35729
+      - 127.0.0.1:4000:4000
+      - 127.0.0.1:35729:35729
     volumes:
       - ./:/srv/jekyll
